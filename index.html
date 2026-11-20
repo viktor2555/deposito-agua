@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora de Água Dona Helena | Armazém de Água em Campinas - SP (Retirada no Local)</title>
+
+    <!-- SEO Local Forte para Campinas - SP -->
+    <meta name="description" content="Distribuidora de água Dona Helena em Campinas - SP. Armazém de água para retirada presencial no local (NÃO realiza entregas) na Rua das Magnólias, 1373, próximo ao Jardim Capivari e Vila Mimosa. WhatsApp (19) 9 8141-4246.">
+    <meta name="keywords" content="distribuidora de água Dona Helena, Distribuidora de Água Dona Helena, armazém de água Campinas, retirada de galão de água Campinas, galão de água 20 litros retirada Campinas, água mineral Campinas, troca de galão de água Campinas, Rua das Magnólias 1373, CEP 13050-068, Jardim Capivari, Vila Mimosa, Av. Tancredo Neves">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Distribuidora de Água Dona Helena">
+    <meta name="geo.region" content="BR-SP">
+    <meta name="geo.placename" content="Campinas">
+    <meta name="geo.position" content="-22.9372;-47.0911">
+    <meta name="ICBM" content="-22.9372, -47.0911">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Distribuidora de Água Dona Helena">
+    <meta property="og:title" content="Distribuidora de Água Dona Helena | Armazém em Campinas - Retirada no Local">
+    <meta property="og:description" content="Armazém de água em Campinas (Rua das Magnólias, 1373). Retirada direta no local — NÃO fazemos entregas. WhatsApp (19) 9 8141-4246.">
+
+    <!-- Schema.org JSON-LD LocalBusiness / WaterSupplier -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["LocalBusiness", "WaterSupplier"],
+      "name": "Distribuidora de Água Dona Helena",
+      "alternateName": "Distribuidora de água Dona Helena",
+      "description": "Armazém de água mineral em Campinas - SP exclusivamente para retirada presencial no local. Não realiza entregas.",
+      "telephone": "+55-19-98141-4246",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Rua+das+Magn%C3%B3lias,+1373,+Campinas,+SP,+13050-068",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua das Magnólias, 1373",
+        "addressLocality": "Campinas",
+        "addressRegion": "SP",
+        "postalCode": "13050-068",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -22.9372,
+        "longitude": -47.0911
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:30",
+          "closes": "18:30"
+        }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Campinas" },
+        { "@type": "Place", "name": "Jardim Capivari, Campinas - SP" },
+        { "@type": "Place", "name": "Vila Mimosa, Campinas - SP" },
+        { "@type": "Place", "name": "Avenida Tancredo Neves, Campinas - SP" }
+      ]
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
+                    },
+                    colors: {
+                        aqua: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                            950: '#082f49'
+                        }
+                    }
+                }
+            }
+        };
+    </script>
+
+    <!-- Fonte Inter e Ícones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        /* Animações contínuas pensadas especialmente para fluidez no celular */
+        @keyframes gentleFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-7px) rotate(0.4deg); }
+        }
+
+        @keyframes pulseSoft {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+
+        @keyframes waveDrift {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(-18px); }
+            100% { transform: translateX(0); }
+        }
+
+        .animate-gentle-float {
+            animation: gentleFloat 4.2s ease-in-out infinite;
+        }
+
+        .animate-pulse-soft {
+            animation: pulseSoft 2.8s ease-in-out infinite;
+        }
+
+        .animate-wave-drift {
+            animation: waveDrift 6s ease-in-out infinite;
+        }
+
+        /* Transições obrigatórias de fade-in e fade-out nas mudanças de página/abas */
+        .page-panel {
+            transition: opacity 0.28s cubic-bezier(0.22, 1, 0.36, 1), transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .page-enter-start {
+            opacity: 0;
+            transform: translateY(12px) scale(0.992);
+        }
+
+        .page-enter-active {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+
+        .page-exit-active {
+            opacity: 0;
+            transform: translateY(-10px) scale(0.992);
+        }
+
+        /* Revelação suave na rolagem / troca */
+        .reveal-item {
+            opacity: 0;
+            transform: translateY(16px);
+            transition: opacity 0.45s ease-out, transform 0.45s ease-out;
+        }
+
+        .reveal-item.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Vidro limpo sobre fundo em movimento */
+        .clean-glass {
+            background: rgba(8, 47, 73, 0.72);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(186, 230, 253, 0.24);
+        }
+
+        /* Modal transição */
+        .modal-backdrop {
+            transition: opacity 0.24s ease;
+        }
+
+        .modal-card {
+            transition: opacity 0.26s cubic-bezier(0.22, 1, 0.36, 1), transform 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased overflow-x-hidden selection:bg-aqua-200 selection:text-aqua-950">
+
+    <!-- Faixa superior clara: Armazém em Campinas -->
+    <div class="bg-amber-50 border-b border-amber-200/90 text-amber-950 text-xs sm:text-sm py-2 px-3">
+        <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center font-medium">
+            <span class="inline-flex items-center gap-1.5 font-bold text-amber-900">
+                <i class="fa-solid fa-warehouse text-amber-700"></i>
+                ARMAZÉM DE ÁGUA • RETIRADA NO LOCAL
+            </span>
+            <span class="hidden sm:inline text-amber-400">•</span>
+            <span>Rua das Magnólias, 1373 — Campinas, SP</span>
+            <span class="hidden md:inline text-amber-400">•</span>
+            <a href="https://wa.me/5519981414246?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20disponibilidade%20de%20gal%C3%B5es%20para%20retirada%20no%20armaz%C3%A9m%20da%20Distribuidora%20de%20%C3%81gua%20Dona%20Helena%20em%20Campinas." target="_blank" rel="noopener noreferrer" class="underline font-semibold text-amber-900 hover:text-amber-700">
+                WhatsApp (19) 9 8141-4246
+            </a>
+        </div>
+    </div>
+
+    <!-- Cabeçalho fixo mobile-first -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-aqua-100 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-2">
+            <!-- Marca -->
+            <button type="button" onclick="switchPage('inicio')" class="flex items-center gap-2.5 text-left group focus:outline-none">
+                <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-aqua-500 to-aqua-800 text-white flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
+                    <i class="fa-solid fa-droplet text-lg"></i>
+                </div>
+                <div class="leading-tight">
+                    <span class="block text-sm sm:text-base font-extrabold text-aqua-950 tracking-tight">
+                        Distribuidora de Água Dona Helena
+                    </span>
+                    <span class="block text-[11px] font-semibold text-aqua-700">
+                        Armazém Campinas • Retirada Presencial
+                    </span>
+                </div>
+            </button>
+
+            <!-- Navegação Desktop -->
+            <nav aria-label="Menu principal" class="hidden md:flex items-center gap-1 bg-aqua-50/90 p-1 rounded-2xl border border-aqua-100">
+                <button type="button" data-nav="inicio" onclick="switchPage('inicio')" class="nav-btn px-3.5 py-2 rounded-xl text-sm font-semibold transition-all">
+                    Início
+                </button>
+                <button type="button" data-nav="armazem" onclick="switchPage('armazem')" class="nav-btn px-3.5 py-2 rounded-xl text-sm font-semibold transition-all">
+                    Armazém & Produtos
+                </button>
+                <button type="button" data-nav="sobre" onclick="switchPage('sobre')" class="nav-btn px-3.5 py-2 rounded-xl text-sm font-semibold transition-all">
+                    Sobre & Mapa
+                </button>
+                <button type="button" data-nav="contato" onclick="switchPage('contato')" class="nav-btn px-3.5 py-2 rounded-xl text-sm font-semibold transition-all">
+                    Contato
+                </button>
+            </nav>
+
+            <!-- Ações rápidas no topo -->
+            <div class="flex items-center gap-2">
+                <button type="button" onclick="openEmailModal()" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-aqua-100 text-aqua-900 hover:bg-aqua-200 transition-colors">
+                    <i class="fa-solid fa-envelope"></i>
+                    E-mail
+                </button>
+                <a href="https://wa.me/5519981414246?text=Ol%C3%A1%21%20Quero%20consultar%20a%20retirada%20de%20gal%C3%B5es%20no%20armaz%C3%A9m%20em%20Campinas." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-700 shadow-sm transition-all active:scale-95">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>(19) 9 8141-4246</span>
+                </a>
+                <button type="button" id="mobileMenuToggle" onclick="toggleMobileMenu()" aria-label="Abrir ou fechar menu" aria-expanded="false" class="md:hidden w-10 h-10 rounded-xl bg-aqua-50 text-aqua-900 border border-aqua-200 flex items-center justify-center active:scale-95 transition-transform">
+                    <i id="mobileMenuIcon" class="fa-solid fa-bars text-base"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Menu Mobile retrátil com transição -->
+        <div id="mobileMenuDrawer" class="md:hidden hidden border-t border-aqua-100 bg-white px-4 py-3 space-y-1.5 shadow-lg">
+            <button type="button" data-nav="inicio" onclick="switchPage('inicio', true)" class="nav-btn w-full flex items-center justify-between px-4 py-3 rounded-2xl text-sm font-bold transition-all">
+                <span><i class="fa-solid fa-house mr-2.5 text-aqua-600"></i>Início</span>
+                <i class="fa-solid fa-chevron-right text-xs opacity-50"></i>
+            </button>
+            <button type="button" data-nav="armazem" onclick="switchPage('armazem', true)" class="nav-btn w-full flex items-center justify-between px-4 py-3 rounded-2xl text-sm font-bold transition-all">
+                <span><i class="fa-solid fa-bottle-water mr-2.5 text-aqua-600"></i>Armazém & Produtos</span>
+                <i class="fa-solid fa-chevron-right text-xs opacity-50"></i>
+            </button>
+            <button type="button" data-nav="sobre" onclick="switchPage('sobre', true)" class="nav-btn w-full flex items-center justify-between px-4 py-3 rounded-2xl text-sm font-bold transition-all">
+                <span><i class="fa-solid fa-map-location-dot mr-2.5 text-aqua-600"></i>Sobre & Mapa</span>
+                <i class="fa-solid fa-chevron-right text-xs opacity-50"></i>
+            </button>
+            <button type="button" data-nav="contato" onclick="switchPage('contato', true)" class="nav-btn w-full flex items-center justify-between px-4 py-3 rounded-2xl text-sm font-bold transition-all">
+                <span><i class="fa-solid fa-phone-volume mr-2.5 text-aqua-600"></i>Contato</span>
+                <i class="fa-solid fa-chevron-right text-xs opacity-50"></i>
+            </button>
+            <button type="button" onclick="closeMobileMenu(); openEmailModal();" class="w-full flex items-center justify-center gap-2 mt-2 px-4 py-3 rounded-2xl text-sm font-bold bg-aqua-900 text-white active:scale-95 transition-all">
+                <i class="fa-solid fa-envelope"></i>
+                Abrir Formulário de E-mail
+            </button>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal com transições fade-in / fade-out entre páginas -->
+    <main id="pageStage" class="min-h-[75vh]">
+
+        <!-- ==================== ABA 1: INÍCIO ==================== -->
+        <section id="page-inicio" class="page-panel page-enter-active">
+            <!-- Hero com Vídeo 'agua-helena' em plano de fundo no topo -->
+            <div class="relative overflow-hidden bg-slate-950 text-white min-h-[520px] flex items-center">
+                <!-- VÍDEO NO TOPO EM PLANO DE FUNDO -->
+                <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0 opacity-45">
+                    <source src="agua-helena.mp4" type="video/mp4">
+                    <source src="agua-helena.webm" type="video/webm">
+                    <source src="agua-helena.ogv" type="video/ogg">
+                    <source src="aguahelena.mp4" type="video/mp4">
+                    <source src="video_1.mp4" type="video/mp4">
+                </video>
+
+                <!-- Overlay escuro suave para leitura dos textos -->
+                <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-950/80 z-0"></div>
+
+                <!-- Conteúdo textual sobreposto -->
+                <div class="relative z-10 max-w-6xl mx-auto px-4 py-12 sm:py-16 lg:py-20 w-full">
+                    <div class="grid lg:grid-cols-12 gap-7 items-center">
+                        <div class="lg:col-span-8 clean-glass rounded-3xl p-6 sm:p-8 shadow-2xl">
+                            <div class="inline-flex flex-wrap items-center gap-2 px-3 py-1.5 rounded-full bg-amber-400/20 border border-amber-300/40 text-amber-100 text-xs font-bold mb-4">
+                                <i class="fa-solid fa-circle-exclamation text-amber-300"></i>
+                                EXCLUSIVO PARA RETIRADA NO LOCAL • NÃO FAZEMOS ENTREGAS
+                            </div>
+
+                            <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white">
+                                Distribuidora de Água Dona Helena
+                            </h1>
+                            <p class="mt-1.5 text-base sm:text-lg font-semibold text-aqua-200">
+                                Armazém de Água Mineral em Campinas - SP
+                            </p>
+
+                            <p class="mt-4 text-sm sm:text-base text-slate-100/95 leading-relaxed">
+                                Atendimento presencial ágil e direto no nosso armazém na <strong>Rua das Magnólias, 1373</strong>, em Campinas (próximo ao Jardim Capivari e Vila Mimosa). Traga seu veículo ou galão vazio para retirada no local — <strong>não realizamos entrega domiciliar</strong>.
+                            </p>
+
+                            <!-- CTAs principais -->
+                            <div class="mt-6 flex flex-col sm:flex-row gap-3">
+                                <a href="https://wa.me/5519981414246?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Distribuidora%20de%20%C3%81gua%20Dona%20Helena%20em%20Campinas.%20Gostaria%20de%20consultar%20disponibilidade%20para%20retirada%20no%20local." target="_blank" rel="noopener noreferrer" class="animate-pulse-soft inline-flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm sm:text-base shadow-lg transition-all active:scale-95">
+                                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                                    Chamar no WhatsApp (19) 9 8141-4246
+                                </a>
+
+                                <button type="button" onclick="openEmailModal()" class="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-white/15 hover:bg-white/25 border border-white/30 text-white font-bold text-sm sm:text-base transition-all active:scale-95">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Contato por E-mail
+                                </button>
+                            </div>
+
+                            <!-- Informações rápidas -->
+                            <div class="mt-6 pt-5 border-t border-white/15 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs sm:text-sm">
+                                <div class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-location-dot text-aqua-300 mt-1"></i>
+                                    <div>
+                                        <span class="block font-bold text-white">Endereço</span>
+                                        <span class="text-aqua-100">Rua das Magnólias, 1373 • Campinas</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-store text-amber-300 mt-1"></i>
+                                    <div>
+                                        <span class="block font-bold text-white">Modalidade</span>
+                                        <span class="text-amber-200 font-semibold">Retirada presencial no armazém</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-clock text-aqua-300 mt-1"></i>
+                                    <div>
+                                        <span class="block font-bold text-white">Atendimento</span>
+                                        <span class="text-aqua-100">Seg a Sáb • 07h30 às 18h30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card lateral com destaque institucional -->
+                        <div class="lg:col-span-4 space-y-4">
+                            <div class="animate-gentle-float clean-glass rounded-3xl p-5 shadow-2xl text-center">
+                                <div class="w-14 h-14 rounded-2xl bg-aqua-500/20 text-aqua-300 flex items-center justify-center text-2xl mx-auto mb-3">
+                                    <i class="fa-solid fa-droplet"></i>
+                                </div>
+                                <h3 class="font-extrabold text-white text-lg">Água Mineral Purificada</h3>
+                                <p class="text-xs text-aqua-100 mt-2 leading-relaxed">
+                                    Galões e garrafões organizados no nosso armazém. Praticidade na troca presencial.
+                                </p>
+                                <div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-center gap-1.5 text-xs text-amber-300 font-semibold">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    <span>Garantia de Origem & Qualidade</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção de pilares de movimento e clareza no celular -->
+            <div class="max-w-6xl mx-auto px-4 py-10 sm:py-14">
+                <div class="text-center max-w-2xl mx-auto mb-8 reveal-item">
+                    <span class="inline-block px-3 py-1 rounded-full bg-aqua-100 text-aqua-800 text-xs font-extrabold uppercase tracking-wider mb-2">
+                        Armazém Institucional • Campinas - SP
+                    </span>
+                    <h2 class="text-xl sm:text-3xl font-black text-aqua-950">
+                        Retirada simples e direta no armazém
+                    </h2>
+                    <p class="mt-2 text-sm sm:text-base text-slate-600">
+                        A <strong>Distribuidora de água Dona Helena</strong> funciona como ponto de retirada em Campinas com atendimento direto no balcão.
+                    </p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+                    <div class="reveal-item bg-white rounded-3xl p-5 border border-aqua-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+                        <div class="w-11 h-11 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center text-lg mb-3.5">
+                            <i class="fa-solid fa-ban"></i>
+                        </div>
+                        <h3 class="font-extrabold text-aqua-950 text-base">Não Fazemos Entregas</h3>
+                        <p class="mt-1.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Retirada no balcão na Rua das Magnólias, 1373, em Campinas, com agilidade para o seu veículo.
+                        </p>
+                    </div>
+
+                    <div class="reveal-item bg-white rounded-3xl p-5 border border-aqua-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+                        <div class="w-11 h-11 rounded-2xl bg-aqua-100 text-aqua-700 flex items-center justify-center text-lg mb-3.5">
+                            <i class="fa-solid fa-bottle-water"></i>
+                        </div>
+                        <h3 class="font-extrabold text-aqua-950 text-base">Galões & Garrafões</h3>
+                        <p class="mt-1.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Galões de 20 litros, opções menores e água mineral para consumo residencial e comercial.
+                        </p>
+                    </div>
+
+                    <div class="reveal-item bg-white rounded-3xl p-5 border border-aqua-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+                        <div class="w-11 h-11 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-lg mb-3.5">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <h3 class="font-extrabold text-aqua-950 text-base">WhatsApp Direto</h3>
+                        <p class="mt-1.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Fale com a equipe pelo número <strong>(19) 9 8141-4246</strong> antes de ir ao armazém.
+                        </p>
+                    </div>
+
+                    <div class="reveal-item bg-white rounded-3xl p-5 border border-aqua-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+                        <div class="w-11 h-11 rounded-2xl bg-sky-100 text-sky-700 flex items-center justify-center text-lg mb-3.5">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                        </div>
+                        <h3 class="font-extrabold text-aqua-950 text-base">Fácil Acesso em Campinas</h3>
+                        <p class="mt-1.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Próximo ao Jardim Capivari, Vila Mimosa e Avenida Tancredo Neves (CEP 13050-068).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Carrossel interativo automático de imagens -->
+                <div class="mt-10 bg-white rounded-3xl p-4 sm:p-6 border border-aqua-100 shadow-sm reveal-item">
+                    <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+                        <div>
+                            <span class="inline-flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-wider text-aqua-700">
+                                <i class="fa-solid fa-rotate text-[11px]"></i> Carrossel Automático
+                            </span>
+                            <h3 class="text-lg sm:text-2xl font-black text-aqua-950">Galeria do Armazém & Galões</h3>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button type="button" onclick="prevSlide()" aria-label="Slide anterior" class="w-10 h-10 rounded-xl bg-aqua-50 hover:bg-aqua-100 text-aqua-900 border border-aqua-200 flex items-center justify-center active:scale-95 transition-all">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button type="button" onclick="nextSlide()" aria-label="Próximo slide" class="w-10 h-10 rounded-xl bg-aqua-600 hover:bg-aqua-700 text-white flex items-center justify-center active:scale-95 transition-all">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Área do carrossel com suporte a toque/swipe e auto-play -->
+                    <div id="carouselViewport" class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-aqua-50 via-white to-sky-50 border border-aqua-100 select-none">
+                        <div id="carouselTrack" class="flex transition-transform duration-500 ease-out">
+                            <!-- Slides renderizados via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Indicadores -->
+                    <div id="carouselDots" class="flex items-center justify-center gap-2 mt-4"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ABA 2: ARMAZÉM & PRODUTOS ==================== -->
+        <section id="page-armazem" class="page-panel page-enter-start hidden">
+            <div class="max-w-6xl mx-auto px-4 py-10 sm:py-14">
+                <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8 reveal-item">
+                    <div>
+                        <span class="inline-block px-3 py-1 rounded-full bg-aqua-100 text-aqua-800 text-xs font-extrabold uppercase tracking-wider mb-2">
+                            Armazém de Água • Campinas - SP
+                        </span>
+                        <h1 class="text-2xl sm:text-4xl font-black text-aqua-950">
+                            Produtos & Retirada no Local
+                        </h1>
+                        <p class="mt-2 text-sm sm:text-base text-slate-600 max-w-2xl">
+                            Confira as opções disponíveis no armazém da <strong>Distribuidora de Água Dona Helena</strong> para retirada presencial no local.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Faixa de retirada presencial -->
+                <div class="mb-8 rounded-3xl bg-amber-50 border border-amber-200 p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 reveal-item">
+                    <div class="flex items-start gap-3">
+                        <div class="w-10 h-10 rounded-2xl bg-amber-200/80 text-amber-900 flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <i class="fa-solid fa-person-walking-luggage text-lg"></i>
+                        </div>
+                        <div>
+                            <h2 class="font-extrabold text-amber-950 text-sm sm:text-base">
+                                Ponto de Retirada em Campinas — Não Fazemos Entregas
+                            </h2>
+                            <p class="text-xs sm:text-sm text-amber-900/90 mt-0.5">
+                                Rua das Magnólias, 1373, Campinas - SP, CEP 13050-068. Consulte estoque pelo WhatsApp <strong>(19) 9 8141-4246</strong>.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5519981414246?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20a%20disponibilidade%20de%20gal%C3%B5es%20para%20retirada%20no%20armaz%C3%A9m%20em%20Campinas." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold whitespace-nowrap transition-all">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Consultar WhatsApp
+                    </a>
+                </div>
+
+                <!-- Grade de produtos -->
+                <div id="productsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Preenchido via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ABA 3: SOBRE & MAPA ==================== -->
+        <section id="page-sobre" class="page-panel page-enter-start hidden">
+            <div class="max-w-6xl mx-auto px-4 py-10 sm:py-14">
+                <div class="grid lg:grid-cols-12 gap-8 items-start">
+                    <!-- Texto institucional sobre atuação em Campinas -->
+                    <div class="lg:col-span-6 space-y-5 reveal-item">
+                        <span class="inline-block px-3 py-1 rounded-full bg-aqua-100 text-aqua-800 text-xs font-extrabold uppercase tracking-wider">
+                            Sobre o Armazém • Campinas - SP
+                        </span>
+                        <h1 class="text-2xl sm:text-4xl font-black text-aqua-950 leading-tight">
+                            Distribuidora de Água Dona Helena em Campinas
+                        </h1>
+                        <p class="text-sm sm:text-base text-slate-700 leading-relaxed">
+                            A <strong>Distribuidora de água Dona Helena</strong> atua em <strong>Campinas - SP</strong> como um <strong>armazém de água focado na retirada presencial no local</strong>, oferecendo praticidade, organização e atendimento direto para moradores e comércios da região.
+                        </p>
+                        <p class="text-sm sm:text-base text-slate-700 leading-relaxed">
+                            Nosso ponto de retirada fica na <strong>Rua das Magnólias, 1373</strong>, CEP <strong>13050-068</strong>, em uma localização acessível próximo ao <strong>Jardim Capivari</strong>, <strong>Vila Mimosa</strong> e <strong>Avenida Tancredo Neves</strong>. O atendimento é feito exclusivamente no local, sem serviço de entrega.
+                        </p>
+
+                        <div class="bg-white rounded-3xl p-5 border border-aqua-100 shadow-sm space-y-3">
+                            <h2 class="font-extrabold text-aqua-950 text-base flex items-center gap-2">
+                                <i class="fa-solid fa-circle-check text-aqua-600"></i>
+                                Informações do Ponto de Retirada
+                            </h2>
+                            <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                                <li class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-location-dot text-aqua-600 mt-1"></i>
+                                    <span><strong>Endereço:</strong> Rua das Magnólias, 1373, Campinas - SP, 13050-068</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-warehouse text-amber-600 mt-1"></i>
+                                    <span><strong>Operação:</strong> Armazém de Água • Retirada presencial no balcão</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <i class="fa-brands fa-whatsapp text-emerald-600 mt-1"></i>
+                                    <span><strong>Telefone / WhatsApp:</strong> (19) 9 8141-4246</span>
+                                </li>
+                            </ul>
+
+                            <div class="pt-2 flex flex-wrap gap-3">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+das+Magn%C3%B3lias,+1373,+Campinas,+SP,+13050-068" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-aqua-700 hover:bg-aqua-800 text-white text-xs sm:text-sm font-bold transition-all">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Abrir no Google Maps
+                                </a>
+                                <button type="button" onclick="openEmailModal()" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-aqua-50 hover:bg-aqua-100 text-aqua-900 border border-aqua-200 text-xs sm:text-sm font-bold transition-all">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Enviar E-mail
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mapa interativo do Google Maps -->
+                    <div class="lg:col-span-6 reveal-item">
+                        <div class="bg-white rounded-3xl p-4 sm:p-5 border border-aqua-100 shadow-sm">
+                            <div class="flex items-center justify-between gap-2 mb-3">
+                                <div>
+                                    <h2 class="font-extrabold text-aqua-950 text-base sm:text-lg">
+                                        Localização no Google Maps
+                                    </h2>
+                                    <p class="text-xs text-slate-500">Rua das Magnólias, 1373 • Campinas - SP</p>
+                                </div>
+                                <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-aqua-50 text-aqua-800 border border-aqua-200">
+                                    Campinas - SP
+                                </span>
+                            </div>
+
+                            <div class="rounded-2xl overflow-hidden border border-aqua-200 bg-aqua-50 h-80 sm:h-96">
+                                <iframe
+                                    title="Mapa da Distribuidora de Água Dona Helena na Rua das Magnólias, 1373, Campinas - SP"
+                                    src="https://www.google.com/maps?q=Rua+das+Magn%C3%B3lias,+1373,+Campinas,+SP,+13050-068&output=embed"
+                                    class="w-full h-full border-0"
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ABA 4: CONTATO ==================== -->
+        <section id="page-contato" class="page-panel page-enter-start hidden">
+            <div class="max-w-5xl mx-auto px-4 py-10 sm:py-14">
+                <div class="text-center max-w-2xl mx-auto mb-8 reveal-item">
+                    <span class="inline-block px-3 py-1 rounded-full bg-aqua-100 text-aqua-800 text-xs font-extrabold uppercase tracking-wider mb-2">
+                        Atendimento Direto • Campinas - SP
+                    </span>
+                    <h1 class="text-2xl sm:text-4xl font-black text-aqua-950">
+                        Canais de Contato do Armazém
+                    </h1>
+                    <p class="mt-2 text-sm sm:text-base text-slate-600">
+                        Fale pelo WhatsApp <strong>(19) 9 8141-4246</strong> ou abra o formulário de e-mail para tirar dúvidas sobre a retirada no local.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6 reveal-item">
+                    <!-- Card WhatsApp -->
+                    <div class="bg-white rounded-3xl p-6 sm:p-7 border border-aqua-100 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-2xl mb-4">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <h2 class="text-xl font-black text-aqua-950">WhatsApp do Armazém</h2>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Atendimento rápido para consultar disponibilidade de galões e retirar direto no endereço em Campinas.
+                            </p>
+                            <p class="mt-4 text-lg font-extrabold text-emerald-700">(19) 9 8141-4246</p>
+                        </div>
+
+                        <a href="https://wa.me/5519981414246?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20a%20Distribuidora%20de%20%C3%81gua%20Dona%20Helena%20em%20Campinas%20sobre%20retirada%20no%20armaz%C3%A9m." target="_blank" rel="noopener noreferrer" class="mt-6 inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm transition-all active:scale-95">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            Abrir Conversa no WhatsApp
+                        </a>
+                    </div>
+
+                    <!-- Card E-mail -->
+                    <div class="bg-white rounded-3xl p-6 sm:p-7 border border-aqua-100 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-2xl bg-aqua-100 text-aqua-700 flex items-center justify-center text-2xl mb-4">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </div>
+                            <h2 class="text-xl font-black text-aqua-950">Formulário de Contato por E-mail</h2>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Abra a janela interativa para preencher seu nome, e-mail e mensagem, copiar o texto formatado ou disparar seu aplicativo de e-mail.
+                            </p>
+                            <p class="mt-4 text-xs font-semibold text-aqua-800 bg-aqua-50 px-3 py-2 rounded-xl inline-block">
+                                Retirada no local: Rua das Magnólias, 1373 • Campinas - SP
+                            </p>
+                        </div>
+
+                        <button type="button" onclick="openEmailModal()" class="mt-6 inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-aqua-700 hover:bg-aqua-800 text-white font-bold text-sm transition-all active:scale-95">
+                            <i class="fa-solid fa-envelope"></i>
+                            Abrir Formulário de E-mail
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé institucional -->
+    <footer class="bg-aqua-950 text-aqua-100 border-t border-aqua-900">
+        <div class="max-w-6xl mx-auto px-4 py-10">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-white font-extrabold text-base">Distribuidora de Água Dona Helena</h3>
+                    <p class="mt-2 text-xs sm:text-sm text-aqua-200/90 leading-relaxed">
+                        Armazém de água em Campinas - SP com retirada presencial no local.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-2.5">Endereço & Contato</h4>
+                    <ul class="space-y-1.5 text-xs sm:text-sm text-aqua-200">
+                        <li>Rua das Magnólias, 1373 — Campinas, SP, 13050-068</li>
+                        <li>WhatsApp: <a href="https://wa.me/5519981414246" target="_blank" rel="noopener noreferrer" class="underline text-white font-semibold">(19) 9 8141-4246</a></li>
+                        <li>
+                            <button type="button" onclick="openEmailModal()" class="underline text-aqua-300 hover:text-white font-semibold">
+                                Abrir formulário de e-mail
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-2.5">Navegação</h4>
+                    <div class="flex flex-wrap gap-2 text-xs font-semibold">
+                        <button type="button" onclick="switchPage('inicio')" class="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors">Início</button>
+                        <button type="button" onclick="switchPage('armazem')" class="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors">Armazém & Produtos</button>
+                        <button type="button" onclick="switchPage('sobre')" class="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors">Sobre & Mapa</button>
+                        <button type="button" onclick="switchPage('contato')" class="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors">Contato</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-aqua-800/70 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-aqua-300">
+                <span>© <span id="currentYear"></span> Distribuidora de Água Dona Helena — Campinas, SP.</span>
+                <span>Retirada no local • Campinas - SP.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão flutuante WhatsApp -->
+    <a href="https://wa.me/5519981414246?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20a%20retirada%20de%20gal%C3%B5es%20no%20armaz%C3%A9m%20em%20Campinas." target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp (19) 9 8141-4246" class="fixed bottom-4 right-4 z-40 w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 shadow-xl flex items-center justify-center text-2xl transition-transform hover:scale-105 active:scale-95">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- ==================== MODAL FORMULÁRIO DE E-MAIL ==================== -->
+    <div id="emailModal" role="dialog" aria-modal="true" aria-labelledby="emailModalTitle" class="modal-backdrop fixed inset-0 z-50 hidden opacity-0 bg-slate-950/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div id="emailModalCard" class="modal-card opacity-0 scale-95 w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-aqua-100 overflow-hidden">
+            <div class="bg-gradient-to-r from-aqua-800 to-aqua-600 px-6 py-4 text-white flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <i class="fa-solid fa-envelope text-lg text-aqua-200"></i>
+                    <h2 id="emailModalTitle" class="font-extrabold text-base sm:text-lg">Contato por E-mail — Dona Helena</h2>
+                </div>
+                <button type="button" onclick="closeEmailModal()" aria-label="Fechar janela de e-mail" class="w-9 h-9 rounded-xl bg-white/15 hover:bg-white/25 flex items-center justify-center transition-colors">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <form id="emailContactForm" onsubmit="handleEmailSubmit(event)" class="p-5 sm:p-6 space-y-4">
+                <div class="p-3 rounded-2xl bg-amber-50 border border-amber-200 text-xs text-amber-950 font-medium">
+                    <strong>Aviso:</strong> O armazém em Campinas (Rua das Magnólias, 1373) atua apenas para <strong>retirada no local</strong> e <strong>não realiza entregas</strong>.
+                </div>
+
+                <div>
+                    <label for="senderName" class="block text-xs font-bold text-slate-700 mb-1">Seu Nome *</label>
+                    <input id="senderName" name="senderName" type="text" required placeholder="Ex.: João Silva" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-aqua-600 focus:ring-2 focus:ring-aqua-200 outline-none text-sm">
+                </div>
+
+                <div>
+                    <label for="senderEmail" class="block text-xs font-bold text-slate-700 mb-1">Seu E-mail *</label>
+                    <input id="senderEmail" name="senderEmail" type="email" required placeholder="seuemail@exemplo.com" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-aqua-600 focus:ring-2 focus:ring-aqua-200 outline-none text-sm">
+                </div>
+
+                <div>
+                    <label for="senderMessage" class="block text-xs font-bold text-slate-700 mb-1">Mensagem / Consulta de Retirada *</label>
+                    <textarea id="senderMessage" name="senderMessage" rows="3" required placeholder="Ex.: Gostaria de consultar disponibilidade para retirada de galões no armazém em Campinas." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-aqua-600 focus:ring-2 focus:ring-aqua-200 outline-none text-sm resize-none"></textarea>
+                </div>
+
+                <div id="emailFeedback" class="hidden p-3 rounded-2xl text-xs font-semibold"></div>
+
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-end gap-2.5 pt-1">
+                    <button type="button" onclick="copyEmailDraft()" class="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-aqua-50 hover:bg-aqua-100 text-aqua-900 border border-aqua-200 text-xs sm:text-sm font-bold transition-colors">
+                        <i class="fa-regular fa-copy"></i>
+                        Copiar Mensagem
+                    </button>
+                    <button type="submit" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-aqua-700 hover:bg-aqua-800 text-white text-xs sm:text-sm font-bold shadow-sm transition-all active:scale-95">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Preparar / Enviar E-mail
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Ano atual no rodapé
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Dados das imagens revisadas com foco e enquadramento otimizados (.jpg e .png)
+        const mediaItems = [
+            {
+                sources: ['agua-p.jpg', 'agua-p.png'],
+                focusClass: 'object-center',
+                title: 'Galão 20L Premium',
+                badge: 'Armazém Campinas',
+                description: 'Galão de água mineral 20L higienizado e lacrado para retirada presencial no local.'
+            },
+            {
+                sources: ['agua-p2.jpg', 'agua-p2.png'],
+                focusClass: 'object-[50%_20%]',
+                title: 'Estoque de Galões Alinhados',
+                badge: 'Rua das Magnólias, 1373',
+                description: 'Organização de galões prontos para rápida retirada direta no armazém em Campinas.'
+            },
+            {
+                sources: ['agua-p3.jpg', 'agua-p3.png'],
+                focusClass: 'object-center',
+                title: 'Galão de Água Mineral Cristalina',
+                badge: 'Água Purificada',
+                description: 'Água mineral de alta pureza com padrão rigoroso de qualidade e higiene.'
+            },
+            {
+                sources: ['agua-p4.png', 'agua-p4.jpg'],
+                focusClass: 'object-[50%_20%]',
+                title: 'Pronta Retirada Presencial no Local',
+                badge: 'Retirada Direta',
+                description: 'Atendimento presencial rápido para clientes que realizam a retirada no armazém.'
+            }
+        ];
+
+        // Gera imagem responsiva com fallback automático entre .jpg e .png e enquadramento ajustado
+        function renderResponsiveImage(item, extraClasses = '') {
+            const primary = item.sources[0];
+            const secondary = item.sources[1];
+            const focus = item.focusClass || 'object-center';
+            return `
+                <div class="w-full overflow-hidden rounded-2xl bg-aqua-50/70 border border-aqua-100/80 ${extraClasses}">
+                    <img src="${primary}"
+                         onerror="if (this.dataset.fallbackApplied !== '1') { this.dataset.fallbackApplied = '1'; this.src='${secondary}'; }"
+                         alt="${item.title}"
+                         loading="lazy"
+                         class="w-full h-full object-cover ${focus} group-hover:scale-105 transition-transform duration-500">
+                </div>
+            `;
+        }
+
+        // Renderização e rotação automática do Carrossel
+        let currentSlide = 0;
+        let autoSlideTimer = null;
+
+        function renderCarousel() {
+            const track = document.getElementById('carouselTrack');
+            const dots = document.getElementById('carouselDots');
+            if (!track || !dots) return;
+
+            track.innerHTML = mediaItems.map((item) => `
+                <div class="w-full flex-shrink-0 p-3 sm:p-5 grid md:grid-cols-12 gap-5 items-center group">
+                    <div class="md:col-span-6">
+                        ${renderResponsiveImage(item, 'h-56 sm:h-72')}
+                    </div>
+                    <div class="md:col-span-6 space-y-2.5 text-left">
+                        <span class="inline-block px-3 py-1 rounded-full bg-aqua-100 text-aqua-800 text-xs font-bold">
+                            ${item.badge}
+                        </span>
+                        <h4 class="text-lg sm:text-2xl font-black text-aqua-950">${item.title}</h4>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">${item.description}</p>
+                        <p class="text-xs font-semibold text-aqua-800 bg-aqua-50 border border-aqua-200 rounded-xl px-3 py-2 inline-block">
+                            Retirada presencial • Rua das Magnólias, 1373
+                        </p>
+                    </div>
+                </div>
+            `).join('');
+
+            dots.innerHTML = mediaItems.map((_, idx) => `
+                <button type="button" onclick="goToSlide(${idx}, true)" aria-label="Ir para slide ${idx + 1}" class="h-2.5 rounded-full transition-all ${idx === currentSlide ? 'w-7 bg-aqua-700' : 'w-2.5 bg-aqua-200 hover:bg-aqua-300'}"></button>
+            `).join('');
+
+            updateSlideTransform();
+        }
+
+        function updateSlideTransform() {
+            const track = document.getElementById('carouselTrack');
+            if (track) {
+                track.style.transform = `translateX(-${currentSlide * 100}%)`;
+            }
+            const dots = document.querySelectorAll('#carouselDots button');
+            dots.forEach((dot, idx) => {
+                dot.className = `h-2.5 rounded-full transition-all ${idx === currentSlide ? 'w-7 bg-aqua-700' : 'w-2.5 bg-aqua-200 hover:bg-aqua-300'}`;
+            });
+        }
+
+        function goToSlide(index, resetTimer = false) {
+            const total = mediaItems.length;
+            currentSlide = ((index % total) + total) % total;
+            updateSlideTransform();
+            if (resetTimer) startAutoCarousel();
+        }
+
+        function nextSlide(resetTimer = true) {
+            goToSlide(currentSlide + 1, resetTimer);
+        }
+
+        function prevSlide(resetTimer = true) {
+            goToSlide(currentSlide - 1, resetTimer);
+        }
+
+        function startAutoCarousel() {
+            stopAutoCarousel();
+            autoSlideTimer = setInterval(() => {
+                if (activePageId === 'inicio') {
+                    nextSlide(false);
+                }
+            }, 4000);
+        }
+
+        function stopAutoCarousel() {
+            if (autoSlideTimer) {
+                clearInterval(autoSlideTimer);
+                autoSlideTimer = null;
+            }
+        }
+
+        // Suporte a gesto de toque (swipe) e pausa inteligente no carrossel
+        let touchStartX = 0;
+        const viewport = document.getElementById('carouselViewport');
+        if (viewport) {
+            viewport.addEventListener('mouseenter', stopAutoCarousel);
+            viewport.addEventListener('mouseleave', startAutoCarousel);
+
+            viewport.addEventListener('touchstart', (e) => {
+                stopAutoCarousel();
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            viewport.addEventListener('touchend', (e) => {
+                const touchEndX = e.changedTouches[0].screenX;
+                const diff = touchEndX - touchStartX;
+                if (Math.abs(diff) > 40) {
+                    if (diff < 0) nextSlide(false);
+                    else prevSlide(false);
+                }
+                startAutoCarousel();
+            }, { passive: true });
+        }
+
+        // Renderização dos cards na aba Armazém & Produtos
+        function renderProductsGrid() {
+            const grid = document.getElementById('productsGrid');
+            if (!grid) return;
+
+            grid.innerHTML = mediaItems.map((item) => `
+                <article class="reveal-item group bg-white rounded-3xl p-4 sm:p-5 border border-aqua-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+                    <div>
+                        ${renderResponsiveImage(item, 'h-52 sm:h-56')}
+                        <div class="mt-4 flex items-center justify-between gap-2">
+                            <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-aqua-50 text-aqua-800 border border-aqua-200">
+                                ${item.badge}
+                            </span>
+                            <span class="text-[11px] font-bold text-aqua-700">Retirada local</span>
+                        </div>
+                        <h3 class="mt-2.5 font-extrabold text-aqua-950 text-base sm:text-lg">${item.title}</h3>
+                        <p class="mt-1 text-xs sm:text-sm text-slate-600 leading-relaxed">${item.description}</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-aqua-50 flex items-center justify-between gap-2">
+                        <span class="text-xs font-semibold text-slate-500">Retirada no armazém</span>
+                        <a href="https://wa.me/5519981414246?text=${encodeURIComponent('Olá! Gostaria de consultar disponibilidade para retirada no local de: ' + item.title + ' (Distribuidora de Água Dona Helena - Campinas).')}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-colors">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Consultar
+                        </a>
+                    </div>
+                </article>
+            `).join('');
+
+            observeRevealElements();
+        }
+
+        // Navegação entre páginas/abas com transição fade-in e fade-out
+        let activePageId = 'inicio';
+        let isTransitioningPage = false;
+
+        function setActiveNavButtons(pageId) {
+            document.querySelectorAll('.nav-btn').forEach((btn) => {
+                const isCurrent = btn.getAttribute('data-nav') === pageId;
+                if (isCurrent) {
+                    btn.classList.add('bg-aqua-700', 'text-white', 'shadow-xs');
+                    btn.classList.remove('text-aqua-950', 'hover:bg-aqua-100', 'bg-aqua-50');
+                } else {
+                    btn.classList.remove('bg-aqua-700', 'text-white', 'shadow-xs');
+                    btn.classList.add('text-aqua-950', 'hover:bg-aqua-100');
+                }
+            });
+        }
+
+        function switchPage(targetPageId, closeDrawer = false) {
+            if (closeDrawer) closeMobileMenu();
+            if (isTransitioningPage || targetPageId === activePageId) return;
+
+            const currentEl = document.getElementById(`page-${activePageId}`);
+            const nextEl = document.getElementById(`page-${targetPageId}`);
+            if (!currentEl || !nextEl) return;
+
+            isTransitioningPage = true;
+            setActiveNavButtons(targetPageId);
+
+            // Fade-out da página atual
+            currentEl.classList.remove('page-enter-active');
+            currentEl.classList.add('page-exit-active');
+
+            setTimeout(() => {
+                currentEl.classList.add('hidden');
+                currentEl.classList.remove('page-exit-active');
+
+                // Fade-in da nova página
+                nextEl.classList.remove('hidden');
+                nextEl.classList.add('page-enter-start');
+
+                // Força reflow antes de ativar estado final
+                void nextEl.offsetWidth;
+
+                nextEl.classList.remove('page-enter-start');
+                nextEl.classList.add('page-enter-active');
+
+                activePageId = targetPageId;
+                isTransitioningPage = false;
+
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                observeRevealElements();
+            }, 240);
+        }
+
+        // Menu Mobile
+        function toggleMobileMenu() {
+            const drawer = document.getElementById('mobileMenuDrawer');
+            const btn = document.getElementById('mobileMenuToggle');
+            const icon = document.getElementById('mobileMenuIcon');
+            if (!drawer || !btn || !icon) return;
+
+            const isHidden = drawer.classList.contains('hidden');
+            if (isHidden) {
+                drawer.classList.remove('hidden');
+                btn.setAttribute('aria-expanded', 'true');
+                icon.classList.replace('fa-bars', 'fa-xmark');
+            } else {
+                closeMobileMenu();
+            }
+        }
+
+        function closeMobileMenu() {
+            const drawer = document.getElementById('mobileMenuDrawer');
+            const btn = document.getElementById('mobileMenuToggle');
+            const icon = document.getElementById('mobileMenuIcon');
+            if (!drawer || !btn || !icon) return;
+
+            drawer.classList.add('hidden');
+            btn.setAttribute('aria-expanded', 'false');
+            icon.classList.replace('fa-xmark', 'fa-bars');
+        }
+
+        // Revelação suave dos elementos ao rolar ou trocar de aba
+        let revealObserver = null;
+
+        function observeRevealElements() {
+            const items = document.querySelectorAll('.reveal-item');
+            if (!items.length) return;
+
+            if (!revealObserver) {
+                revealObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('is-visible');
+                        }
+                    });
+                }, { threshold: 0.08 });
+            }
+
+            items.forEach((el) => {
+                revealObserver.observe(el);
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight * 0.96) {
+                    el.classList.add('is-visible');
+                }
+            });
+        }
+
+        // Modal de Formulário de E-mail
+        function openEmailModal() {
+            const modal = document.getElementById('emailModal');
+            const card = document.getElementById('emailModalCard');
+            const feedback = document.getElementById('emailFeedback');
+            if (!modal || !card) return;
+
+            if (feedback) {
+                feedback.classList.add('hidden');
+                feedback.textContent = '';
+            }
+
+            modal.classList.remove('hidden');
+            void modal.offsetWidth;
+            modal.classList.remove('opacity-0');
+            card.classList.remove('opacity-0', 'scale-95');
+            card.classList.add('opacity-100', 'scale-100');
+        }
+
+        function closeEmailModal() {
+            const modal = document.getElementById('emailModal');
+            const card = document.getElementById('emailModalCard');
+            if (!modal || !card) return;
+
+            modal.classList.add('opacity-0');
+            card.classList.remove('opacity-100', 'scale-100');
+            card.classList.add('opacity-0', 'scale-95');
+
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 240);
+        }
+
+        function buildEmailText() {
+            const name = (document.getElementById('senderName')?.value || '').trim();
+            const email = (document.getElementById('senderEmail')?.value || '').trim();
+            const message = (document.getElementById('senderMessage')?.value || '').trim();
+
+            return `Nome: ${name || 'Não informado'}\nE-mail: ${email || 'Não informado'}\nArmazém: Distribuidora de Água Dona Helena — Rua das Magnólias, 1373, Campinas - SP (Retirada no local)\n\nMensagem:\n${message || 'Consulta sobre retirada no local.'}`;
+        }
+
+        function copyEmailDraft() {
+            const text = buildEmailText();
+            const feedback = document.getElementById('emailFeedback');
+            let copied = false;
+
+            try {
+                const tempTextarea = document.createElement('textarea');
+                tempTextarea.value = text;
+                tempTextarea.setAttribute('readonly', '');
+                tempTextarea.style.position = 'absolute';
+                tempTextarea.style.left = '-9999px';
+                document.body.appendChild(tempTextarea);
+                tempTextarea.select();
+                copied = document.execCommand('copy');
+                document.body.removeChild(tempTextarea);
+            } catch (_) {
+                copied = false;
+            }
+
+            if (feedback) {
+                feedback.classList.remove('hidden');
+                if (copied) {
+                    feedback.className = 'p-3 rounded-2xl text-xs font-semibold bg-emerald-50 text-emerald-900 border border-emerald-200';
+                    feedback.textContent = 'Mensagem copiada com sucesso! Cole no seu aplicativo de e-mail ou envie pelo WhatsApp (19) 9 8141-4246.';
+                } else {
+                    feedback.className = 'p-3 rounded-2xl text-xs font-semibold bg-aqua-50 text-aqua-900 border border-aqua-200';
+                    feedback.textContent = 'Rascunho preparado abaixo. Selecione e copie o texto ou use o WhatsApp (19) 9 8141-4246.';
+                }
+            }
+        }
+
+        function handleEmailSubmit(event) {
+            event.preventDefault();
+            const name = (document.getElementById('senderName')?.value || '').trim();
+            const email = (document.getElementById('senderEmail')?.value || '').trim();
+            const message = (document.getElementById('senderMessage')?.value || '').trim();
+            const feedback = document.getElementById('emailFeedback');
+
+            if (!name || !email || !message) {
+                if (feedback) {
+                    feedback.classList.remove('hidden');
+                    feedback.className = 'p-3 rounded-2xl text-xs font-semibold bg-amber-50 text-amber-950 border border-amber-200';
+                    feedback.textContent = 'Por favor, preencha nome, e-mail e mensagem.';
+                }
+                return;
+            }
+
+            const subject = encodeURIComponent(`Contato Site — Distribuidora de Água Dona Helena (${name})`);
+            const body = encodeURIComponent(buildEmailText());
+
+            if (feedback) {
+                feedback.classList.remove('hidden');
+                feedback.className = 'p-3 rounded-2xl text-xs font-semibold bg-emerald-50 text-emerald-900 border border-emerald-200';
+                feedback.innerHTML = `Mensagem validada para <strong>${name}</strong>. <a href="mailto:?subject=${subject}&body=${body}" class="underline font-extrabold">Clique aqui se seu aplicativo de e-mail não abrir automaticamente</a> ou fale no WhatsApp <a href="https://wa.me/5519981414246" target="_blank" rel="noopener noreferrer" class="underline font-extrabold">(19) 9 8141-4246</a>.`;
+            }
+
+            window.location.href = `mailto:?subject=${subject}&body=${body}`;
+        }
+
+        // Inicialização geral
+        window.addEventListener('DOMContentLoaded', () => {
+            setActiveNavButtons('inicio');
+            renderCarousel();
+            renderProductsGrid();
+            startAutoCarousel();
+            observeRevealElements();
+        });
+    </script>
+</body>
+</html>
